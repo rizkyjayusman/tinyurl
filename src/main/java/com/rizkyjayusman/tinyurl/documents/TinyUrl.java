@@ -18,6 +18,6 @@ public class TinyUrl {
     private String originalUrl;
     @Indexed(name = "uniqueCode", unique = true)
     private String uniqueCode;
-    @Indexed(name = "createdDate", expireAfter = "7d")
+    @Indexed(name = "createdDate", expireAfter = "5s")
     private Date createdDate;
 }
