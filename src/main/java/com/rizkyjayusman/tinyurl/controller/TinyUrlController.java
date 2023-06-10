@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RequiredArgsConstructor
 @RestController
-@RequestMapping(name = "/tiny-url")
+@RequestMapping("/tiny-url")
 public class TinyUrlController {
 
     private final TinyUrlService tinyUrlService;
